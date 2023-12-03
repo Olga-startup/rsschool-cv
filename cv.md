@@ -1,8 +1,9 @@
 Olga Kirirllova
 ===
-## Contacts 
+## Contact information
 ###### omalahowa@ya.ru  
 ###### tel.:8952*******
+[Skillbox](https://github.com/Olga-startup)
 
 
 Education
@@ -13,3 +14,13 @@ Education
 
 Experience
 ----
+
+Skills
+----
++ HTML/CSS
+
++ Adobe Photoshop
++ JavaScript Base
++ Git, GitHub
+
+
