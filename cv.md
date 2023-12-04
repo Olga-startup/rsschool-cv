@@ -1,4 +1,4 @@
-Olga Kirirllova
+Olga Kirillova
 ===
 ## Contact information
 ###### omalahowa@ya.ru  
