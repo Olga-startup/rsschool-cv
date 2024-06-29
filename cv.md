@@ -18,7 +18,6 @@ Experience
 Skills
 ----
 + HTML/CSS
-
 + Adobe Photoshop
 + JavaScript Base
 + Git, GitHub
