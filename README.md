@@ -2,4 +2,4 @@
 https://github.com/Olga-startup/rsschool-cv
 
 # CV
-https://github.com/Olga-startup/rsschool-cv/edit/rsschool-cv-html/index.html
+https://olga-startup.github.io/rsschool-cv/
