@@ -1,0 +1,454 @@
+/* html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    height: 3796px;
+    width: 1280;
+}*/
+.header-logo-title a {  color: #F1CDB3; /* Задаем цвет текста для ссылок */
+                 text-decoration: none; /* Убираем стандартное подчеркивание ссылок */
+  }
+  .container{margin: 0 auto;
+             max-width: 1280px;}
+*, *:before, *:after {
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+}
+@media (max-width:767.9px){header {
+    padding: 0 20px;
+}}
+header {display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+min-height: 120px;
+unicode-bidi: isolate;}
+
+.header-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    text-decoration: none;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+header > .header-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    text-decoration: none;
+}
+header.dark > .header-logo > .header-logo-title {
+    color: #f1cdb3;
+}
+header > .header-logo > .header-logo-title {
+    font-family: "Georgia", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    transition: color 333ms;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+header.dark > .header-logo > .header-logo-subtitle {
+    color: #ffffff;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+header > .header-nav > .header-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    list-style-type: none;
+}
+#About > .about-content > .about-text, #Not-only > .start-content > .start-text, header > .header-nav > .header-list {
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #4c4c4c;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+#Not-only > .start-content > .start-heading {
+    font-family: "Georgia", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 57px;
+    color: #ffffff;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+@media (max-width: 768.1px){#Not-only{flex-direction: column;
+padding: 30px 30px 0;
+gap; 0;}}
+#Not-only {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 42px;
+    padding: 60px 40px 0;
+}
+section {
+    display: block;
+    unicode-bidi: isolate;
+}@media(max-width: 768.1px){
+#Not-only > .start-content {
+    margin-bottom: 100px;
+}}
+#Not-only > .start-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 42px;
+    max-width: 460px;
+    min-width: 310px;
+    margin-bottom: 80px;
+}
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Not-only > .start-content > .start-heading {
+    font-family: "Georgia", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 57px;
+    color: #ffffff;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+#Not-only > .start-content > .start-text {
+    color: #cdcdcd;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.button-primary {
+    padding: 15px 45px;
+    border-width: 0;
+}
+.button-donate, .button-secondary, .button-primary, .button-round {
+    border-radius: 100px;
+    border-style: solid;
+    background: #f1cdb3;
+    border-color: #f1cdb3;
+    text-decoration: none;
+}
+.button-secondary, .button-primary {
+    font-family: "Georgia", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+#Friends-extended > .friends-paginator > .friends-paginator-container > .animal-card, #Friends > .friends-slider > .friends-slider-container > .animal-card, .button-donate, .button-secondary, .button-primary, .button-round {
+    transition: color 499.5ms, background-color 499.5ms, border-color 499.5ms;
+}
+.header-logo-title,
+.header-logo-subtitle {
+  margin: 20; /* Убираем отступы у заголовков и параграфов */
+  color: inherit; /* Наследуем цвет текста от родительского элемента */
+}
+ .header-logo-title {color: #f1cdb3;}
+ .header-logo-title {
+    font-family: "Georgia", sans-serif;
+    font-style: normal;
+    width: 184px;
+    height: 35px;
+    
+}
+header.dark > .header-logo > .header-logo-subtitle {
+    color: #ffffff;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+ .wrapper-bottom {background:url (img/svg/footer-gradient-background.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513d2f 0%, #1a1a1c 100%), #211f20;
+ };
+ @media(max-width:811.9px){
+ #About {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 80px;
+    padding: 80px 30px 100px;
+}}
+ #About { 
+    display:flex;
+    flex-direction:row;
+    align-items: flex-start;
+    justify-content:center;
+    gap: 120px;
+    padding: 80px 40px 100px;
+}
+#About>.about-image{max-width: 300px;}
+@media (max-width:811.9px){
+#About > .about-image {
+    width: 100%;
+    transition: all 499.5ms;
+}}
+
+footer .footer-caption, #Addition > .addition-donation > .donation-heading, #Help > .help-heading, #About > .about-content > .about-heading, #Friends-extended > .friends-heading, #Friends > .friends-heading {
+    font-family: "Georgia", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#About > .about-content > .about-text {
+    margin-top: 25px;
+}
+#About > .about-content > .about-text, #Not-only > .start-content > .start-text, header > .header-nav > .header-list {
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #4c4c4c;
+}
+ .container{
+    margin:0 auto;
+    max-width: 100%;
+}
+
+header > .header-nav > .header-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    list-style-type: none;}
+
+@media (max-width: 768.1px) {
+    footer
+    {
+        padding:30px 30px 0;
+    }
+}
+@media (max-width: 1079.9px) {
+    footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        min-height: 639px;
+    }
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+    min-height: 350px;
+    padding: 30px 40px 0;
+}
+@media (max-width: 1079.9px) {
+    footer > .footer-contacts, footer > .footer-maps {
+        margin-top: 0;
+    }
+}
+footer > .footer-contacts, footer > .footer-maps {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 234px;
+    margin-top: 26px;
+    max-width: 300px;
+}
+footer .footer-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    text-decoration: none;
+}
+footer .footer-link, footer .footer-link > h4 {
+    color: #f1cdb3;
+    transition: color 333ms;
+}
+footer .footer-link, footer .footer-link > h4 {
+    color: #f1cdb3;
+    transition: color 333ms;
+}
+
+footer .footer-link, footer .footer-link > h4, #Help > .help-content > .help-option > .option-text, #Friends-extended > .friends-paginator > .friends-paginator-container > .animal-card > .animal-name, #Friends > .friends-slider > .friends-slider-container > .animal-card > .animal-name, .button-donate, .button-round {
+    font-family: "Georgia", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+:where(html) {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 0;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+@media (max-width: 768.1px) {
+    footer > .footer-image {
+        width: 100%;
+        transition: all 499.5ms;
+    }
+}
+footer > .footer-image {
+    max-width: 300px;
+    margin-top: auto;
+}
+footer > .footer-image, #Addition > .addition-image, #Help > .help-content > .help-option > .option-icon, #About > .about-image, #Not-only > .start-image, .button-round-inactive, .button-round-active {
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+:where(html) {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 0;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
